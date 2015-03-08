@@ -1,0 +1,12 @@
+applications:
+- services:
+  - smartspaces-personality_insights
+  - smartspaces-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: smartspaces
+  name: smartspaces
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
